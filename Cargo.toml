@@ -7,4 +7,6 @@
 [dependencies]
 
 	libc = "*"
+	serde = { version = "*", features = [ "derive", "rc" ] }
 	termios = "*"
+	toml = "*"
